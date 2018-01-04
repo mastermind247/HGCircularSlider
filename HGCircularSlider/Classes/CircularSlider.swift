@@ -196,7 +196,7 @@ open class CircularSlider: UIControl {
     /**
      * The radius of circle
      */
-    internal var radius: CGFloat {
+    open var radius: CGFloat {
         get {
             // the minimum between the height/2 and the width/2
             var radius =  min(bounds.center.x, bounds.center.y)
